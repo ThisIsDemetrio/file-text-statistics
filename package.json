@@ -1,0 +1,37 @@
+{
+  "name": "text-file-statistics",
+  "version": "0.0.1",
+  "description": "Quick NodeJS application to read a file and calculate some statistics about it",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint ./**/*.ts",
+    "lint:fix": "eslint --fix ./**/*.ts",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": {
+    "email": "demetrio.marino1985@gmail.com",
+    "name": "Demetrio Marino",
+    "url": "https://github.com/ThisIsDemetrio"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
